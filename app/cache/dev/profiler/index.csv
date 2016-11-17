@@ -743,3 +743,6 @@ d5eabb,10.0.2.2,GET,http://172.19.1.54:8080/GSB_Symfony_TP2/web/app_dev.php/,147
 4d402d,10.0.2.2,GET,http://172.19.1.54:8080/GSB_Symfony_TP2/web/app_dev.php/validerconnexion,1479371982,,200
 0b5275,10.0.2.2,POST,http://172.19.1.54:8080/GSB_Symfony_TP2/web/app_dev.php/validerconnexion,1479371985,,200
 >>>>>>> 4d287315f4eb4fd798aa4462babe23a105801878
+7ce0f6,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/,1479372983,,200
+b3e43f,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf,1479372988,,200
+b45695,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf,1479374609,,200
