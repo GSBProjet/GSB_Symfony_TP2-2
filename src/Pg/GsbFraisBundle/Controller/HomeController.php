@@ -75,7 +75,8 @@ class HomeController extends Controller
        public function dafAffectationsAction($id)
     {
       $pdo = $this->get('pg_gsb_frais.pdo');
-      $tablettes = $pdo->getTablettes();
+      $tablettes = $pdo->getAffectationsTablettes($id);
+
      return $this->render('PgGsbFraisBundle:Home:dafAffectations.html.twig', array( "tablette" => $tablettes ));
     }
  }
