@@ -11,24 +11,18 @@
 
       
       <table style="border-collapse: collapse;">
-        <tr style="{border: 1px solid black;}">
-       <th style="border: 1px solid black;" >Numéro Tablette </th>
+        <tr style="{border: 1px solid black;}">      
        <th style="border: 1px solid black;" >Nom de l'utilisateur</th>
-       <th style="border: 1px solid black;">Type de Tablette </th>
-       <th style="border: 1px solid black;"> Mémoire Interne</th>
-       <th style="border: 1px solid black;"> Mémoire Externe</th>
-       <th style="border: 1px solid black;"> Date Affectation</th>
+       <th style="border: 1px solid black;" >Prenom de l'utilisateur</th>
+        <th style="border: 1px solid black;" >Tablettes ?</th>
+      
        </tr>
 
        {%for t in tablette%} 
-       <tr style="border: 1px solid black;">
-       <td style="border: 1px solid black;">{{t.id}}</td>
-              <td style="border: 1px solid black;">{{t.nom}} {{t.prenom}}</td> 
-       <td style="border: 1px solid black;">{{t.typeTablette}}</td>
-       <td style="border: 1px solid black;">{{t.memoireInt}} </td>
-       <td style="border: 1px solid black;">{{t.memoireExt}}</td>
-       <td style="border: 1px solid black;">{{t.dateAffectation}}</td>
-
+       
+       <td style="border: 1px solid black;">{{t.nom}}</td>
+       <td style="border: 1px solid black;">{{t.prenom}}</td>
+       <td style="border: 1px solid black;"></td>       
 
        </br>
    </tr>
