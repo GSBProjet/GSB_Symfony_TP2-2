@@ -3,9 +3,46 @@
 
 
 
-       
-       
+{{parent()}}
 
+     {% if app.session.get('EstDaf') == true %}
+      <h2 style="text-align: center;">     
+      <h2> Liste des différents Visiteurs </h2>
+
+      
+      <table style="border-collapse: collapse;">
+        <tr style="{border: 1px solid black;}"> 
+
+                      <th style="border: 1px solid black;" >Type OS</th>   
+       <th style="border: 1px solid black;" >Memoire Externe</th>
+              <th style="border: 1px solid black;" >Memoire Interne</th>
+                     <th style="border: 1px solid black;" >Date Affectation</th>
+
+       </tr>
+
+       {%for t in tablette%} 
+  
+      
+
+<td style="border: 1px solid black;">{{t.typeOS}}</td>
+       <td style="border: 1px solid black;">{{t.memoireExt}}</td>
+       <td style="border: 1px solid black;">{{t.memoireInt}}</td>
+       <td style="border: 1px solid black;">{{t.dateAffectation}}</td>
+   
+
+       </br>
+   </tr>
+   {% endfor %}
+</table>
+</h2>
+
+
+{%endif%}
+
+
+       
+       
+     </div> 
 
 {% endblock %}
 
