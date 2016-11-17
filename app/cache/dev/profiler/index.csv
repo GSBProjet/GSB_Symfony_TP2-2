@@ -718,3 +718,6 @@ d57d25,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony2/web/app_dev.php/,147936
 b95f49,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony2/web/app_dev.php/images/favicon.ico,1479368216,,404
 5e7cde,10.0.2.2,POST,http://172.19.1.27:8080/GSB_Symfony2/web/app_dev.php/validerconnexion,1479368224,,200
 c34f02,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony2/web/app_dev.php/daf,1479368226,,200
+b1c7bf,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf,1479369095,,200
+1c423f,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/images/favicon.ico,1479369096,4e39d7,200
+4e39d7,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/images/favicon.ico,1479369096,,404
