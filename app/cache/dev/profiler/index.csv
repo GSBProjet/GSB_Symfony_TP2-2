@@ -820,4 +820,10 @@ e681f5,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf/
 >>>>>>> 1494a2f3756da05f4faa086a1d10647cab08dd9a
 =======
 10645e,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf/affectations/1,1479377781,,200
+<<<<<<< HEAD
 >>>>>>> 5f0a2d34882007febe6d09f24b6caf7b09a1cbd1
+=======
+f7d9b9,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf/affectations/1,1479378570,,200
+10f520,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf/affectations/1,1479378573,,200
+e1925f,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf/affectations/1,1479378688,,200
+>>>>>>> 05c0737eb5e14bbcb114523016ed8bf54c0978af
