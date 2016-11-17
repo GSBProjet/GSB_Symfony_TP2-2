@@ -379,6 +379,14 @@ class PdoGsb{
         return $lesLignes;
         }
 
+        public function getAffectationsTablettes(){
+        $req = "select * from tablette where id";
+        $stmt = PdoGsb::$monPdo->prepare($req);
+                $stmt->execute();
+        $lesLignes = $stmt->fetchAll();
+        return $lesLignes;
+        }
+
 
 
         public function ajouterTablette($idTablette,$memoireInt,$typeTablette,$memoireExt,$dateAffectation){
