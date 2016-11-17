@@ -372,12 +372,14 @@ class PdoGsb{
 
         }
         public function getTablettes(){
-        $req = "select nom, prenom from visiteur";
+        $req = "select nom, prenom, id from visiteur";
         $stmt = PdoGsb::$monPdo->prepare($req);
                 $stmt->execute();
         $lesLignes = $stmt->fetchAll();
         return $lesLignes;
         }
+
+
 
         public function ajouterTablette($idTablette,$memoireInt,$typeTablette,$memoireExt,$dateAffectation){
                 
