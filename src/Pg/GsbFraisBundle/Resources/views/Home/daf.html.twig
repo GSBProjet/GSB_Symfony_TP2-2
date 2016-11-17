@@ -1,0 +1,48 @@
+{% extends "PgGsbFraisBundle::accueil.html.twig" %}
+{% block menu %}
+
+
+
+{{parent()}}
+
+     {% if app.session.get('EstDaf') == true %}
+      <h2 style="text-align: center;">     
+      <h2> Liste des affectations des tablettes :</h2>
+
+      
+      <table style="border-collapse: collapse;">
+        <tr style="{border: 1px solid black;}">
+       <th style="border: 1px solid black;" >Numéro Tablette </th>
+       <th style="border: 1px solid black;" >Nom de l'utilisateur</th>
+       <th style="border: 1px solid black;">Type de Tablette </th>
+       <th style="border: 1px solid black;"> Mémoire Interne</th>
+       <th style="border: 1px solid black;"> Mémoire Externe</th>
+       <th style="border: 1px solid black;"> Date Affectation</th>
+       </tr>
+
+       {%for t in tablette%} 
+       <tr style="border: 1px solid black;">
+       <td style="border: 1px solid black;">{{t.id}}</td>
+              <td style="border: 1px solid black;">{{t.nom}} {{t.prenom}}</td> 
+       <td style="border: 1px solid black;">{{t.typeTablette}}</td>
+       <td style="border: 1px solid black;">{{t.memoireInt}} </td>
+       <td style="border: 1px solid black;">{{t.memoireExt}}</td>
+       <td style="border: 1px solid black;">{{t.dateAffectation}}</td>
+
+
+       </br>
+   </tr>
+   {% endfor %}
+</table>
+</h2>
+
+
+{%endif%}
+
+
+       
+       
+     </div> 
+
+{% endblock %}
+

@@ -1,0 +1,7 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+gsb:
+    resource: "@PgGsbFraisBundle/Resources/config/routing.yml"
+    prefix:   /

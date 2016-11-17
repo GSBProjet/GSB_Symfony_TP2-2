@@ -1,0 +1,32 @@
+{% extends "PgGsbFraisBundle::accueil.html.twig" %}
+{% block menu %}
+
+
+
+{{parent()}}
+
+     {% if app.session.get('EstDaf') == true %}
+      <h2 style="text-align: center;">     
+      
+
+      
+  
+
+     
+    
+       <td style="border: 1px solid black;">{{prenom.visiteur}}</td>
+       
+
+
+</h2>
+
+
+{%endif%}
+
+
+       
+       
+     </div> 
+
+{% endblock %}
+
