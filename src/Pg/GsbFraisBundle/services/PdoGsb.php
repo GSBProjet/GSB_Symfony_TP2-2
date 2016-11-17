@@ -372,7 +372,7 @@ class PdoGsb{
 
         }
         public function getTablettes(){
-        $req = "select tablette.idTablette as id, tablette.typeTablette as typeTablette,  tablette.memoireInt as memoireInt, tablette.memoireExt as memoireExt, tablette.dateAffectation as dateAffectation, visiteur.nom as nom, visiteur.prenom as prenom from tablette , visiteur where tablette.visiteur_id = visiteur.id";
+        $req = "select nom, prenom from visiteur";
         $stmt = PdoGsb::$monPdo->prepare($req);
                 $stmt->execute();
         $lesLignes = $stmt->fetchAll();
