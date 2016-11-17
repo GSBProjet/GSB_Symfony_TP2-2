@@ -71,5 +71,12 @@ class HomeController extends Controller
       
      return $this->render('PgGsbFraisBundle:Home:ajouterTablette.html.twig', array('lesLignes' => $lesLignes));
     }
+
+       public function dafAffectationsAction()
+    {
+      $pdo = $this->get('pg_gsb_frais.pdo');
+      $tablettes = $pdo->getTablettes();
+     return $this->render('PgGsbFraisBundle:Home:dafAffectations.html.twig', array( "tablette" => $tablettes ));
+    }
  }
 ?>
