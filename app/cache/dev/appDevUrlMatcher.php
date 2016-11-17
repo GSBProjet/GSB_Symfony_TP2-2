@@ -155,9 +155,17 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
                 return array (  '_controller' => 'Pg\\GsbFraisBundle\\Controller\\HomeController::dafAction',  '_route' => 'pg_gsb_frais_daf',);
             }
 
-            // pg_gsb_frais_ajouttablette
-            if ($pathinfo === '/daf/ajouttablette') {
-                return array (  '_controller' => 'Pg\\GsbFraisBundle\\Controller\\HomeController::ajouterTabletteAction',  '_route' => 'pg_gsb_frais_ajouttablette',);
+            if (0 === strpos($pathinfo, '/daf/a')) {
+                // pg_gsb_frais_ajouttablette
+                if ($pathinfo === '/daf/ajouttablette') {
+                    return array (  '_controller' => 'Pg\\GsbFraisBundle\\Controller\\HomeController::ajouterTabletteAction',  '_route' => 'pg_gsb_frais_ajouttablette',);
+                }
+
+                // pg_gsb_frais_daf_affectations
+                if ($pathinfo === '/daf/affectations') {
+                    return array (  '_controller' => 'Pg\\GsbFraisBundle\\Controller\\HomeController::dafAction',  '_route' => 'pg_gsb_frais_daf_affectations',);
+                }
+
             }
 
         }

@@ -46,6 +46,7 @@ class appDevUrlGenerator extends Symfony\Component\Routing\Generator\UrlGenerato
         'pg_gsb_frais_supprimerfraishorsforfait' => array (  0 =>   array (    0 => 'id',  ),  1 =>   array (    '_controller' => 'Pg\\GsbFraisBundle\\Controller\\SaisirFraisController::supprimerfraishorsforfaitAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'variable',      1 => '/',      2 => '[^/]++',      3 => 'id',    ),    1 =>     array (      0 => 'text',      1 => '/supprimerfraishorsforfait',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
         'pg_gsb_frais_daf' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'Pg\\GsbFraisBundle\\Controller\\HomeController::dafAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/daf',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
         'pg_gsb_frais_ajouttablette' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'Pg\\GsbFraisBundle\\Controller\\HomeController::ajouterTabletteAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/daf/ajouttablette',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
+        'pg_gsb_frais_daf_affectations' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'Pg\\GsbFraisBundle\\Controller\\HomeController::dafAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/daf/affectations',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
     );
         }
     }
