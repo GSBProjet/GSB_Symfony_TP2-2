@@ -162,8 +162,8 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
                 }
 
                 // pg_gsb_frais_daf_affectations
-                if ($pathinfo === '/daf/affectations') {
-                    return array (  '_controller' => 'Pg\\GsbFraisBundle\\Controller\\HomeController::dafAction',  '_route' => 'pg_gsb_frais_daf_affectations',);
+                if (0 === strpos($pathinfo, '/daf/affectations') && preg_match('#^/daf/affectations/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'pg_gsb_frais_daf_affectations')), array (  '_controller' => 'Pg\\GsbFraisBundle\\Controller\\HomeController::dafAffectationsAction',));
                 }
 
             }

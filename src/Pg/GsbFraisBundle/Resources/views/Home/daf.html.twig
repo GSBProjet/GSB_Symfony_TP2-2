@@ -19,8 +19,8 @@
        </tr>
 
        {%for t in tablette%} 
-       
-       <td style="border: 1px solid black;">{{t.nom}}</td>
+      <td style="border: 1px solid black;"><a href={{ path('pg_gsb_frais_daf_affectations',{'id' : t.id} )}}>{{t.nom}}</a></td>
+
        <td style="border: 1px solid black;">{{t.prenom}}</td>
        <td style="border: 1px solid black;"></td>       
 
