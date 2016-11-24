@@ -865,3 +865,5 @@ d7c1a5,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf,
 =======
 >>>>>>> 4fd0586baea32e8a2364ecc00936764e3f4a50da
 >>>>>>> d517a88a72b83b76089967750bcd618fb931aa08
+dedaf2,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf/affectations/1,1479379722,,200
+c8c81f,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/,1479972485,,200
