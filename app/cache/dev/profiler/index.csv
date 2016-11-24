@@ -867,3 +867,13 @@ d7c1a5,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf,
 >>>>>>> d517a88a72b83b76089967750bcd618fb931aa08
 dedaf2,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf/affectations/1,1479379722,,200
 c8c81f,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/,1479972485,,200
+6142bb,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/accueil,1479972932,,200
+c5d00d,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/images/favicon.ico,1479972933,148444,200
+148444,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/images/favicon.ico,1479972933,,404
+06e59c,10.0.2.2,POST,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/validerconnexion,1479972936,,200
+b1610d,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf,1479972938,,200
+5e88ce,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf/affectations/1,1479972940,,200
+3b160d,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf/affectations/images/favicon.ico,1479972941,9431fb,200
+9431fb,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf/affectations/images/favicon.ico,1479972941,,404
+3e86d5,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf/affectations/2,1479972944,,200
+adef31,10.0.2.2,GET,http://172.19.1.27:8080/GSB_Symfony_TP2/web/app_dev.php/daf/affectations/1,1479973041,,200
